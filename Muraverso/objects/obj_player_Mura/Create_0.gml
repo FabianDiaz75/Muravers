@@ -1,0 +1,13 @@
+hp=3;
+defense=0.00;
+damage=30;
+range=1;
+cooldDamage=60.1;
+spd=8;
+hsp=0;
+vsp=0;
+dir=0;
+coolddash=60*2;
+dashspd=15;
+fullUlti=100;
+chargeUlti=0;
