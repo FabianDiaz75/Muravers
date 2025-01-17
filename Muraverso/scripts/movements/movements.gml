@@ -29,6 +29,6 @@ function dash(dashKey, horKey, verKey, time, delay, dashSpeed, oldSpd){
 		dashDelayer = delay;
 		spd = dashSpeed;
 	} else {
-		spd = oldSpd; 
+		spd = max(oldSpd,spd-1); 
 	}
 }

@@ -10,7 +10,7 @@ dir=0;
 fullUlti=100;
 chargeUlti=0;
 
-dashSpeed	= 80;
+dashSpeed	= 25;
 oldSpeed    = spd;
 dashTime	= 8;
 dashDelay	= dashTime * 4;
