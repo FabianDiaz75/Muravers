@@ -3,12 +3,12 @@
 function movements(hor, ver, spriteOffX, spriteOffY){
 	if(hor!=0 or ver!=0)
 	{
-		//dir =point_direction(0,0,hor,ver);
-		//hsp=lengthdir_x(spd,dir);
-		//vsp=lengthdir_y(spd,dir);
-		hsp=spd*hor;
- 		vsp=spd*ver;
-		lastSpeed = [hor, ver];
+		dir =point_direction(0,0,hor,ver);
+		hsp=lengthdir_x(spd,dir);
+		vsp=lengthdir_y(spd,dir);
+		//hsp=spd*hor;
+ 		//vsp=spd*ver;
+		//lastSpeed = [hor, ver];
 	}
 	else
 	{
