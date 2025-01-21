@@ -6,8 +6,6 @@ function movements(hor, ver, spriteOffX, spriteOffY){
 		dir =point_direction(0,0,hor,ver);
 		hsp=lengthdir_x(spd,dir);
 		vsp=lengthdir_y(spd,dir);
-		//hsp=spd*hor;
- 		//vsp=spd*ver;
 		lastSpeed = [hor, ver];
 	}
 	else
@@ -50,16 +48,8 @@ function dash(dashKey, horKey, verKey, time, delay, dashSpeed, oldSpd, lastDir){
 		spd = dashSpeed;
 		
 		if(horKey == 0 && verKey == 0){
-			if (lastDir[0] != 0) {
-		        hsp = spd * sign(lastDir[0]);   
-		    } else {
-		        hsp = 0;
-		    }
-			if (lastDir[1] != 0) {
-		        vsp = spd * sign(lastDir[1]);
-		    } else {
-		        vsp = 0;
-		    }
+		    hsp = spd * lastDir[0];  
+		    vsp = spd * lastDir[1];
 		}
 	} else {
 		spd = max(oldSpd, spd -4); 

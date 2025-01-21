@@ -1,0 +1,1 @@
+//var mura = instance_nearest()

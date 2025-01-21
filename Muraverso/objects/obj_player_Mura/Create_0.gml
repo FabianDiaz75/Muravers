@@ -3,6 +3,8 @@ defense=0.00;
 damage=30;
 range=1;
 cooldDamage=60.1;
+invincible = false;
+invincibility_duration = 60;
 spd=8;
 hsp=0;
 vsp=0;
@@ -17,4 +19,4 @@ dashDelay	= dashTime * 4;
 dashTimer	= 0;
 dashDelayer = dashDelay;
 
-lastSpeed	= [0,0];
+lastSpeed	= [1,0];
