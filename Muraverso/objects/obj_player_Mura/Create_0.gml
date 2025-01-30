@@ -1,3 +1,6 @@
+name= "mura";
+action= "idle";
+
 hp=3;
 defense=0.00;
 damage=30;
@@ -20,3 +23,8 @@ dashTimer	= 0;
 dashDelayer = dashDelay;
 
 lastSpeed	= [1,0];
+//sprites
+sprDash=spr_mura_dash;
+sprIdle=spr_mura_idle;
+sprRun=spr_mura_run;
+sprActual=sprIdle;

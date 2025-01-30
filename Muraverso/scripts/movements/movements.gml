@@ -16,24 +16,18 @@ function movements(hor, ver, spriteOffX, spriteOffY){
 		else vsp=0;
 	}
 	if place_meeting(x + hsp,y,obj_wall) {
-		var nearestWall = (instance_nearest(x + hsp, y, obj_wall));
-		if (nearestWall != noone) {
-			hsp = 0;
-			var wallX= x;
-			if(x > nearestWall.x) wallX = (nearestWall.x + nearestWall.sprite_xoffset + spriteOffX);
-			else wallX = (nearestWall.x - nearestWall.sprite_xoffset - spriteOffX);
-			x = wallX;
-        }
+		repeat(hsp){
+			if(!place_meeting(x+sign(hsp),y,obj_wall)) x+=sign(hsp);
+			else{break}
+		}
+		hsp=0;
 	}
 	if place_meeting(x,y+vsp,obj_wall) {
-		var nearestWall = (instance_nearest(x, y + vsp, obj_wall));
-		if (nearestWall != noone) {
-			vsp = 0;
-			var wallY= y;
-			if(y > nearestWall.y) wallY = (nearestWall.y + nearestWall.sprite_yoffset + spriteOffY);
-			else wallY = (nearestWall.y - nearestWall.sprite_yoffset - spriteOffY);
-			y = wallY;
-        }
+		repeat(vsp){
+			if(!place_meeting(x,y+sign(vsp),obj_wall)) y+=sign(vsp);
+			else{break}
+		}
+		vsp=0;
 	}	
 	vspeed=vsp
 	hspeed=hsp
@@ -46,12 +40,13 @@ function dash(dashKey, horKey, verKey, time, delay, dashSpeed, oldSpd, lastDir){
 	if(dashKey && (dashDelayer == 0)) {
 		dashDelayer = delay;
 		spd = dashSpeed;
-		
+		sprActual=sprDash;
 		if(horKey == 0 && verKey == 0){
 		    hsp = spd * lastDir[0];  
 		    vsp = spd * lastDir[1];
 		}
 	} else {
-		spd = max(oldSpd, spd -4); 
+		spd = max(oldSpd, spd -4);
+		if(dashDelayer==0 and sprActual==sprDash) sprActual=sprRun;
 	}
 }
