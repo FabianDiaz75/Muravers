@@ -1,4 +1,4 @@
-if (enemies_spawned < enemy_count) {
+if (true) {
     var spawn_x = x// + random_range(0, room_height); // Randomize X position around generator
     var spawn_y = y// + random_range(0, room_width); // Randomize Y position around generator
     var enemy = instance_create_layer(spawn_x, spawn_y, "Instances", enemy_ballface);

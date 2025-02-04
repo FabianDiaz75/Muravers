@@ -33,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_mura_idle",
+    "path":"sprites/spr_mura_idle/spr_mura_idle.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

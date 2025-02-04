@@ -3,10 +3,10 @@
 function movements(hor, ver, spriteOffX, spriteOffY){
 	if(hor!=0 or ver!=0)
 	{
+		
 		dir =point_direction(0,0,hor,ver);
 		hsp=lengthdir_x(spd,dir);
 		vsp=lengthdir_y(spd,dir);
-		lastSpeed = [hor, ver];
 	}
 	else
 	{
@@ -41,6 +41,7 @@ function dash(dashKey, horKey, verKey, time, delay, dashSpeed, oldSpd, lastDir){
 		dashDelayer = delay;
 		spd = dashSpeed;
 		sprActual=sprDash;
+		image_index=0;
 		if(horKey == 0 && verKey == 0){
 		    hsp = spd * lastDir[0];  
 		    vsp = spd * lastDir[1];
