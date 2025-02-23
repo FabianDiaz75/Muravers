@@ -49,6 +49,7 @@
     {"id":{"name":"movement","path":"scripts/movement/movement.yy",},},
     {"id":{"name":"movements","path":"scripts/movements/movements.yy",},},
     {"id":{"name":"scr_atack","path":"scripts/scr_atack/scr_atack.yy",},},
+    {"id":{"name":"scr_sprite","path":"scripts/scr_sprite/scr_sprite.yy",},},
     {"id":{"name":"spr_atack","path":"sprites/spr_atack/spr_atack.yy",},},
     {"id":{"name":"spr_damage","path":"sprites/spr_damage/spr_damage.yy",},},
     {"id":{"name":"spr_Enemy","path":"sprites/spr_Enemy/spr_Enemy.yy",},},

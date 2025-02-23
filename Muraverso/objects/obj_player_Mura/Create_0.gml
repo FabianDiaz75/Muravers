@@ -1,4 +1,3 @@
-name= "mura";
 action= "idle";
 
 //stats
@@ -27,6 +26,9 @@ dashDelay	= dashTime * 4;
 dashTimer	= 0;
 dashDelayer = dashDelay;
 
+//variables de direccion
+hor=1
+ver=1
 lastSpeed	= [1,1];
 
 //sprites
