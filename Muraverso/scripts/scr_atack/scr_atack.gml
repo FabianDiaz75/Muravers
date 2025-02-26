@@ -16,7 +16,7 @@ function scr_punch(punch){
 }
 
 function scr_atack(lastX,lastY){
-	var ataque =instance_create_layer(x+(range)*lastX,y+(range*lastY),"Atacks",obj_atack);
+	var ataque =instance_create_layer(x+(range)*lastX,y+(range*lastY),"Attacks",obj_attack);
 	ataque.damageReal=damage;
 	ataque.sprite_index=sprDamage;
 	ataque.image_index=0;

@@ -1,17 +1,17 @@
-function movement(spd, range, multiplier){
-	if (instance_exists(obj_player_Mura)) {
-	    var dir  = point_direction(x, y, obj_player_Mura.x, obj_player_Mura.y);
-		var dist = point_distance(x, y, obj_player_Mura.x, obj_player_Mura.y);
-		
-		var mtp			= multiplier;
-		var changeMove	= abs(dist) <= range;
-		if(!changeMove){
-			mtp = 1;
-		}
-	    var move_x		= lengthdir_x(spd, dir) * mtp;
-	    var move_y		= lengthdir_y(spd, dir) * mtp;
-		x += move_x;
-		y += move_y;
+function scr_eny_chase_movement(spd, range, multiplier, dir, dist){		
+	var mtp			= multiplier;
+	var changeMove	= abs(dist) <= range;
+	if(!changeMove){
+		mtp = 1;
+	}
+	var move_x		= lengthdir_x(spd, dir) * mtp;
+	var move_y		= lengthdir_y(spd, dir) * mtp;
+	x += move_x;
+	y += move_y;
+}
+
+
+
 	    // Move only if no collision is detected
 	    /*if (place_free(x + move_x, y)) {
 			x += move_x;
@@ -43,5 +43,3 @@ function movement(spd, range, multiplier){
 			    }
 			}
 		}*/
-	}
-}
