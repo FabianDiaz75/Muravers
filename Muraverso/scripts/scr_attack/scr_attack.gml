@@ -3,7 +3,7 @@
 
 function scr_punch(punch){
 	if(punch and damageDelayer==0) {
-		scr_attack(lastSpeed[0],lastSpeed[1]);
+		scr_attack(lastSpeed[0],0);
 		damageDelayer=cooldDamage;
 		action="atack"
 		image_index=0;
@@ -16,19 +16,13 @@ function scr_punch(punch){
 }
 
 function scr_attack(lastX,lastY){
-	if(hor!=0 or ver != 0) {var ataque =instance_create_layer(x+(range*hor),y+(range*ver),"Attacks",obj_attack)}
-	else {var ataque =instance_create_layer(x+(range*lastX),y+(range*ver),"Attacks",obj_attack)}
-	//var _angle = point_direction(0,0,lastX,lastY);
+	var ataque =instance_create_layer(x+(range)*lastX,y+(range*lastY),"Attacks",obj_attack);
 	ataque.damageReal=damage;
-	ataque.hspeed=hsp/5;
-	if((y-ataque.y)!=0 ) {ataque.image_angle= point_direction(0,0,-x+ataque.x,-y+ataque.y)}
-	ataque.vspeed=vsp/5;
 	ataque.sprite_index=sprDamage;
-	ataque.mask_index= sprDamageMask;
 	ataque.image_index=0;
-	if(hor==0) {ataque.image_xscale=rangeX*lastX}
-	else  {ataque.image_xscale=rangeX*lastX}
+	ataque.image_xscale=rangeX*lastX;
 	ataque.image_yscale=rangeY;
+	ataque.damageImage=6;
 	//show_debug_message(string(range+sprite_xoffset)+" " + string(range+sprite_yoffset));
 	
 }

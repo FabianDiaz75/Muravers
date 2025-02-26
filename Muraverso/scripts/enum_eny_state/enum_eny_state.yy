@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"movement",
+  "%Name":"enum_eny_state",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"movement",
+  "name":"enum_eny_state",
   "parent":{
     "name":"Enemies",
     "path":"folders/Scripts/Enemies.yy",
