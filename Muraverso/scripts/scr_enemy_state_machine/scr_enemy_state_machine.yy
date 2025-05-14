@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_eny_basic_attack",
+  "%Name":"scr_enemy_state_machine",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_eny_basic_attack",
+  "name":"scr_enemy_state_machine",
   "parent":{
-    "name":"Attacks",
-    "path":"folders/Scripts/Enemies/Attacks.yy",
+    "name":"Enemies",
+    "path":"folders/Scripts/Enemies.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

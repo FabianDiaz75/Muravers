@@ -1,7 +1,8 @@
 enum enemy_state {
-    chase,
+    idle,
+	chase,
     attack,
-	pre_attack,
+	charge,
     hurt,
     die
 }

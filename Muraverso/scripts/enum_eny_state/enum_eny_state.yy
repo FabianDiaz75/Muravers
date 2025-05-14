@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"enum_eny_state",
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Scripts/Enemies.yy",
+    "name":"States",
+    "path":"folders/Scripts/Enemies/States.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

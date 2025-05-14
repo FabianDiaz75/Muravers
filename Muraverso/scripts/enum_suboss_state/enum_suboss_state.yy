@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_eny_basic_attack",
+  "%Name":"enum_suboss_state",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_eny_basic_attack",
+  "name":"enum_suboss_state",
   "parent":{
-    "name":"Attacks",
-    "path":"folders/Scripts/Enemies/Attacks.yy",
+    "name":"States",
+    "path":"folders/Scripts/Enemies/States.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

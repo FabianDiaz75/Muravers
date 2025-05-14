@@ -1,5 +1,9 @@
 //Check if enemy is still alive
-if(hp<=0) instance_destroy();
+if(hp<=0 && !dead) { 
+	stateMachine.setState(enemy_state.hurt);
+	preAtkDuration = initPreAtkTime /2;
+	dead = true;
+};
 
 //Initialization of variables in the frame
 var dir  = 0;
@@ -49,11 +53,18 @@ if(state != undefined){
 		case enemy_state.charge:
 			stateMachine.setState(enemy_state.charge);
 			stateMachine.update(
-				{}, 
+				{
+					_spd:spd, 
+					_range:stepRange, 
+					_range_mtp:stepMultiplayer, 
+					_dir:dir, 
+					_dist:dist
+				}, 
 				[
 					{
 						_conditions:{
-							_duration:preAtkDuration
+							_duration:preAtkDuration,
+							_dist:dist
 						},
 						_next_state: enemy_state.attack,
 						_exit_params: {
@@ -85,9 +96,34 @@ if(state != undefined){
 			);
 		break; 
 		case enemy_state.hurt:
+			stateMachine.update(
+				{}, 
+				[
+					{
+						_conditions:{
+							_duration:preAtkDuration,
+							_dist:dist
+						},
+						_next_state: enemy_state.die,
+						_exit_params: {
+							_dir:dir,
+							_dist:dist
+						}
+					}
+				] 				
+			);
 		break;
 		case enemy_state.die:
-			instance_destroy();
+			show_debug_message("test1")
+			stateMachine.update(
+				{
+					_range:atkRange, 
+					_dmg:dmg, 
+					_dmg_range:dmgRange, 
+					_dir_atk:lastDirAtk
+				}, 
+				[] 	 
+			);
 		break;
 	}
 }
