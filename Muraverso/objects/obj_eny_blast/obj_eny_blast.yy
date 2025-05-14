@@ -1,17 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"enemy_ballface",
-  "eventList":[],
+  "%Name":"obj_eny_blast",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"enemy_ballface",
+  "name":"obj_eny_blast",
   "overriddenProperties":[],
   "parent":{
-    "name":"enemigos",
-    "path":"folders/Objects/enemigos.yy",
+    "name":"Attacks",
+    "path":"folders/Objects/Enemies/Attacks.yy",
   },
   "parentObjectId":{
-    "name":"obj_enemy_base",
-    "path":"objects/obj_enemy_base/obj_enemy_base.yy",
+    "name":"obj_eny_attack",
+    "path":"objects/obj_eny_attack/obj_eny_attack.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Enemy",
-    "path":"sprites/spr_Enemy/spr_Enemy.yy",
+    "name":"spr_atack",
+    "path":"sprites/spr_atack/spr_atack.yy",
   },
   "spriteMaskId":null,
   "visible":true,

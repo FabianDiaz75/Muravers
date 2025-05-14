@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_eny_basic_attack",
+  "%Name":"scr_eny_long_attack",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_eny_basic_attack",
+  "name":"scr_eny_long_attack",
   "parent":{
     "name":"Attacks",
     "path":"folders/Scripts/Enemies/Attacks.yy",

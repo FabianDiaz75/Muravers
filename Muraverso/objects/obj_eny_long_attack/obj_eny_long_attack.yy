@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"enemy_sentinel",
+  "%Name":"obj_eny_long_attack",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"enemy_sentinel",
+  "name":"obj_eny_long_attack",
   "overriddenProperties":[],
   "parent":{
-    "name":"HellColiseum",
-    "path":"folders/Objects/Enemies/HellColiseum.yy",
+    "name":"Attacks",
+    "path":"folders/Objects/Enemies/Attacks.yy",
   },
   "parentObjectId":{
-    "name":"obj_enemy_base",
-    "path":"objects/obj_enemy_base/obj_enemy_base.yy",
+    "name":"obj_eny_attack",
+    "path":"objects/obj_eny_attack/obj_eny_attack.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
+    "name":"spr_atack",
+    "path":"sprites/spr_atack/spr_atack.yy",
   },
   "spriteMaskId":null,
   "visible":true,

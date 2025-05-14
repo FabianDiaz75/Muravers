@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"enemy_sentinel",
+  "%Name":"obj_eny_test",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"enemy_sentinel",
+  "name":"obj_eny_test",
   "overriddenProperties":[],
   "parent":{
-    "name":"HellColiseum",
-    "path":"folders/Objects/Enemies/HellColiseum.yy",
+    "name":"Enemies",
+    "path":"folders/Objects/Enemies.yy",
   },
-  "parentObjectId":{
-    "name":"obj_enemy_base",
-    "path":"objects/obj_enemy_base/obj_enemy_base.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
+    "name":"spr_enemy_1",
+    "path":"sprites/spr_enemy_1/spr_enemy_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

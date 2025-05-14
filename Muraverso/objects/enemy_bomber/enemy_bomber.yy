@@ -1,11 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"enemy_sentinel",
+  "%Name":"enemy_bomber",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"enemy_sentinel",
+  "name":"enemy_bomber",
   "overriddenProperties":[],
   "parent":{
     "name":"HellColiseum",
@@ -33,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
+    "name":"spr_enemy_1",
+    "path":"sprites/spr_enemy_1/spr_enemy_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

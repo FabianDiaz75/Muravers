@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_eny_chase_movement",
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Scripts/Enemies.yy",
+    "name":"Movement",
+    "path":"folders/Scripts/Enemies/Movement.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

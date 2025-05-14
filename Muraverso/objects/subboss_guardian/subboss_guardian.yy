@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"enemy_sentinel",
+  "%Name":"subboss_guardian",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"enemy_sentinel",
+  "name":"subboss_guardian",
   "overriddenProperties":[],
   "parent":{
-    "name":"HellColiseum",
-    "path":"folders/Objects/Enemies/HellColiseum.yy",
+    "name":"SubBoss",
+    "path":"folders/Objects/Enemies/HellColiseum/Bosses/SubBoss.yy",
   },
   "parentObjectId":{
     "name":"obj_enemy_base",
@@ -33,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
+    "name":"spr_enemy_2",
+    "path":"sprites/spr_enemy_2/spr_enemy_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
