@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function movements(spriteOffX, spriteOffY){
+function movements(){
 	scr_control_mov();
 	scr_collision();
 	vspeed=vsp
@@ -13,7 +13,8 @@ function scr_control_mov(){
 	{
 		hor= keyboard_check(ord("D"))-keyboard_check(ord("A"))
 		ver= keyboard_check(ord("S"))-keyboard_check(ord("W"))
-	}else 
+	}
+	else 
 		{hor=0;ver=0}
 	if(hor!=0) {lastSpeed[0] = hor}
 	if(ver!=0) {lastSpeed[1] = ver}
@@ -25,9 +26,9 @@ function scr_control_mov(){
 	}
 	else
 	{
-		if(hsp>0.1 or hsp<-0.1) {hsp=lerp(hsp,0,0.1)}
+		if(hsp>0.1 or hsp<-0.1) {hsp=lerp(0,hsp,0.9)}
 		else hsp=0;
-		if(vsp>0.1 or vsp<-0.1) {vsp=lerp(vsp,0,0.1)}
+		if(vsp>0.1 or vsp<-0.1) {vsp=lerp(0,vsp,0.9)}
 		else vsp=0;
 	}
 }

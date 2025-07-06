@@ -37,5 +37,6 @@ sprIdle=spr_mura_idle;
 sprRun=spr_mura_run;
 sprAtack=spr_mura_atack;
 sprDamage=spr_mura_damage;
+sprDamageMask=spr_mura_damage_mask;
 timeCharge=3
-sprActual=sprIdle;
+alpha = 1
