@@ -114,7 +114,6 @@ if(state != undefined){
 			);
 		break;
 		case enemy_state.die:
-			show_debug_message("test1")
 			stateMachine.update(
 				{
 					_range:atkRange, 

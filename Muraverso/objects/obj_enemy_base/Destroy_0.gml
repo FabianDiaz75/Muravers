@@ -1,0 +1,1 @@
+global.enemies_active--
