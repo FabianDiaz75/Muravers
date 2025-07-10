@@ -1,12 +1,20 @@
 {
   "$GMObject":"",
+<<<<<<<< HEAD:Muraverso/objects/obj_eny_attack/obj_eny_attack.yy
   "%Name":"obj_eny_attack",
+========
+  "%Name":"obj_attack",
+>>>>>>>> ec09cce9ff0b30592ff9c60fc6014ddeaec20dd2:Muraverso/objects/obj_attack/obj_attack.yy
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
+<<<<<<<< HEAD:Muraverso/objects/obj_eny_attack/obj_eny_attack.yy
   "name":"obj_eny_attack",
+========
+  "name":"obj_attack",
+>>>>>>>> ec09cce9ff0b30592ff9c60fc6014ddeaec20dd2:Muraverso/objects/obj_attack/obj_attack.yy
   "overriddenProperties":[],
   "parent":{
     "name":"Attacks",
