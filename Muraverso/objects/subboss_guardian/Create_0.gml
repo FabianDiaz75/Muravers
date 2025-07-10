@@ -109,17 +109,10 @@ lastDirAtk		= 0;
 			function (){},
 			function (_parameters){
 				if (!is_undefined(_parameters)) {
-					if(
-						!place_meeting(self.x + self.sprite_xoffset + _parameters._spd, self.y, obj_wall) &&
-						!place_meeting(self.x - self.sprite_xoffset - _parameters._spd, self.y, obj_wall) &&
-						!place_meeting(self.x, self.y  + self.sprite_yoffset + _parameters._spd, obj_wall) &&
-						!place_meeting(self.x, self.y - self.sprite_yoffset - _parameters._spd, obj_wall)
-					){
-						scr_eny_chase_movement(
-							_parameters._spd, _parameters._range, _parameters._range_mtp, 
-							_parameters._dir, _parameters._dist
-						);
-					}
+					scr_eny_chase_movement(
+						_parameters._spd, _parameters._range, _parameters._range_mtp, 
+						_parameters._dir, _parameters._dist
+					);
 				} else {
 					show_debug_message("Error: _parameters is undefined");
 				}

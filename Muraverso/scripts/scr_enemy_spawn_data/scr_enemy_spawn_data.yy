@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_enemy_spawn_data",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_enemy_spawn_data",
+  "parent":{
+    "name":"Spawner",
+    "path":"folders/Scripts/Enemies/Spawner.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

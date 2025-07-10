@@ -53,7 +53,6 @@ initPreAtkTime  = 30;
 		hurtTransitions, 
 		enemy_state.die,
 		function(_conditions){
-			show_debug_message("test1")
 			if(_conditions == undefined) return false;
 			return (_conditions._duration == 0)
 		}
@@ -131,7 +130,6 @@ initPreAtkTime  = 30;
 		enemy_state.die,
 		function (){},
 		function (_parameters){
-			show_debug_message("test1")
 			if (!is_undefined(_parameters)) {
 				scr_eny_basic_attack(
 					"Attacks", 
