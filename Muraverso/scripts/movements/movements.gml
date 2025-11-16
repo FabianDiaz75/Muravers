@@ -55,12 +55,11 @@ function dash(dashKey, horKey, verKey, time, delay, dashSpeed, oldSpd, lastDir){
 	
 	if(dashKey && (dashDelayer == 0)) {
 		dashDelayer = delay;
-		spd = dashSpeed;
-		action="dash";
-		image_index=0;
+		spd			= dashSpeed;
+		action		= "dash";
+		image_index = 0;
 		if(horKey == 0 && verKey == 0){
 		    hsp = spd * lastDir[0];  
-		    vsp = spd * lastDir[1];
 		}
 	} else {
 		spd = max(oldSpd, spd -4);

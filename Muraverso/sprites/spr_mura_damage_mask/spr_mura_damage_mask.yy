@@ -17,8 +17,8 @@
     {"$GMSpriteFrame":"","%Name":"d4c0e497-957b-47db-8ab5-242b016bd699","name":"d4c0e497-957b-47db-8ab5-242b016bd699","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"bf9d4dbf-e953-404e-8d4c-9bb7f5b881ae","name":"bf9d4dbf-e953-404e-8d4c-9bb7f5b881ae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"483f6b2c-5181-4551-b4b9-9659df9b8006","name":"483f6b2c-5181-4551-b4b9-9659df9b8006","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4115c2cf-fff4-44b7-ab0c-5b702865b977","name":"4115c2cf-fff4-44b7-ab0c-5b702865b977","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"7ad0e2b6-0d1c-4622-87f6-d09a817425a4","name":"7ad0e2b6-0d1c-4622-87f6-d09a817425a4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"4115c2cf-fff4-44b7-ab0c-5b702865b977","name":"4115c2cf-fff4-44b7-ab0c-5b702865b977","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"fbea1903-36de-4826-ad02-08effd51ef3a","name":"fbea1903-36de-4826-ad02-08effd51ef3a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"6a405e1c-f5e3-4307-ada5-b83b880021fc","name":"6a405e1c-f5e3-4307-ada5-b83b880021fc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
@@ -34,8 +34,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"sprs_atack",
-    "path":"folders/Sprites/sprs_atack.yy",
+    "name":"sprs_attack",
+    "path":"folders/Sprites/sprs_attack.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -68,7 +68,7 @@
     },
     "name":"spr_mura_damage_mask",
     "playback":1,
-    "playbackSpeed":15.0,
+    "playbackSpeed":20.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -93,11 +93,11 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"483f6b2c-5181-4551-b4b9-9659df9b8006","path":"sprites/spr_mura_damage_mask/spr_mura_damage_mask.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"c4605fed-20c9-464c-8a79-290e0c7bc5e2","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4115c2cf-fff4-44b7-ab0c-5b702865b977","path":"sprites/spr_mura_damage_mask/spr_mura_damage_mask.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c52f1a42-d49a-4421-86a3-0b2b650aa6a7","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7ad0e2b6-0d1c-4622-87f6-d09a817425a4","path":"sprites/spr_mura_damage_mask/spr_mura_damage_mask.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6cd8c734-b318-47d8-ada5-ad5e644573cb","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"6cd8c734-b318-47d8-ada5-ad5e644573cb","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4115c2cf-fff4-44b7-ab0c-5b702865b977","path":"sprites/spr_mura_damage_mask/spr_mura_damage_mask.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c52f1a42-d49a-4421-86a3-0b2b650aa6a7","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fbea1903-36de-4826-ad02-08effd51ef3a","path":"sprites/spr_mura_damage_mask/spr_mura_damage_mask.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"227839ff-bd8f-4062-ae36-95e196013ef3","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},

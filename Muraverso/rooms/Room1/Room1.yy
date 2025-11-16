@@ -53,7 +53,7 @@
   },
   "sequenceId":null,
   "views":[
-    {"hborder":640,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":{"name":"obj_player_Mura","path":"objects/obj_player_Mura/obj_player_Mura.yy",},"vborder":640,"visible":true,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":257,"yport":0,"yview":511,},
+    {"hborder":640,"hport":768,"hspeed":-1,"hview":512,"inherit":false,"objectId":{"name":"obj_player_Mura","path":"objects/obj_player_Mura/obj_player_Mura.yy",},"vborder":640,"visible":true,"vspeed":-1,"wport":1366,"wview":911,"xport":0,"xview":257,"yport":0,"yview":511,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},

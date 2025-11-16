@@ -44,8 +44,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"sprs_atack",
-    "path":"folders/Sprites/sprs_atack.yy",
+    "name":"sprs_attack",
+    "path":"folders/Sprites/sprs_attack.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

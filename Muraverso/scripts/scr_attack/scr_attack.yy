@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_attack",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Mura",
+    "path":"folders/Scripts/Mura.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
